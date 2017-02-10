@@ -1,0 +1,11 @@
+		h1 {
+			text-align: center;
+			color: crimson;
+		}
+		img {
+			border: 4px double #FF00FF;
+			width: 300px;
+		}
+		figure {
+			text-align: center;
+		}
