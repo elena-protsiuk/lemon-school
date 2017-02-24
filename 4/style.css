@@ -1,0 +1,41 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: monospace;
+			font-size: 30px;
+		}
+		header {
+			background: DimGray;
+			color: white;
+			padding: 50px;
+			padding-top: 80px;
+		}
+		aside {
+			background-color: CornflowerBlue;
+			color: white;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.aside1 {
+			float: left;
+			width: 200px;
+		}
+		.aside2 {
+			float: right;
+			width: 200px;
+		}
+		.content {
+			margin: 0 200px;
+			background-color: white;
+			padding: 20px 50px;
+		}
+		.container1 {
+			background-color: CornflowerBlue;
+		}
+		footer {
+			background-color: DimGray;
+			color: white;
+			padding: 50px;
+			padding-bottom: 80px;
+		}
