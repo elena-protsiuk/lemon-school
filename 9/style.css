@@ -14,7 +14,8 @@ table {
     margin: 35px;			
 }
 tr {
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: 300;
 }
 td:first-child {
 	border-right: 1px solid #f1f1f1;
@@ -25,7 +26,8 @@ td:first-child {
 	border: none;
 	color: #dc1f26;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 14px;
+	font-weight: 400;
 }
 td:nth-child(2) {
 	width: 180px;
@@ -34,7 +36,6 @@ td:nth-child(2) {
 	text-transform: uppercase;
 	padding-left: 25px;
 	padding-right: 35px;
-	font-size: 13px;
 }
 td:first-child:not(.first):hover {
 	color: #dc1f26;
