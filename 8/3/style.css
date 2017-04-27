@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.wrapper {
+	margin: 100px;
+    background-color: #030388;
+	width: 525px;
+	height: 491px;
+}
+.img {
+	width: 525px;
+	height: 493px;
+}
+.content {
+    width: 525px;
+	height: 491px;
+	background-color: #030388;
+	opacity: 0.7;
+}
+span {
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	position: absolute;
+	top: 517px;
+	left: 260px;
+	z-index: 9999;
+}
+.content:hover {
+	background-color: #030388;
+	opacity: 0.4;
+	text-shadow: 0 0 35px white;
+}

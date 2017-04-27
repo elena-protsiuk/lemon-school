@@ -1,0 +1,727 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400');
+/*header*/
+.header-wrapper {
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/eagle.png);
+    background-size: cover;
+}
+.header-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.span {
+	font-size: 30px;
+	letter-spacing: .7px;
+	color: #fff;
+	text-align: left;
+	float: left;
+}
+.header-ul a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+.header-ul li {
+	float: left;
+	padding: 0 30px;
+	text-align: right;
+	list-style-type: none;
+}
+.header-nav {
+	padding-left: 410px;
+	margin-top: 15px;
+	text-align: right;
+	display: inline-block;
+}
+.header-ul a:hover {
+	color: #fce38a;
+	border-bottom: 2px solid #fce38a;
+}
+
+/*sliders*/
+.white_line {
+	width: 60px;
+	margin: 0 auto;
+	border-bottom: 3px solid #fff;
+}
+.slider {
+    max-width:1200px; 
+    overflow:hidden; 
+}
+.slider a {
+	display: block;
+	width: 155px;
+	margin: 20px auto;
+	padding: 14px 0;
+	font-size: 14px;
+	border: 3px solid #fff;
+	color: #fff;
+	text-decoration: none;
+}
+.slider {
+	text-align: center;
+	color: #fff;
+	padding: 50px 0;
+}
+.slider p {
+	font-family: 'Kaushan Script';
+	font-size: 72px;
+}
+.slider h1 {
+	font-size: 150px;
+	text-transform: uppercase;
+}
+.slide {
+	color: #fff;
+}
+.slideprogress {
+    display: inline-block;
+    color: #fff;
+    width: 20%;
+    margin-left: 30px;
+	height: 3px;
+	position: relative;
+	background-color: #fff;
+}
+.progressbar {
+	display: block;
+	height: 100%;
+	background-color: #f38181;
+	position: relative;
+	overflow: hidden;
+}
+.intro > span:after {
+	display: none;
+}
+
+/*story*/
+.story-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0 92px 0;
+	text-align: center;
+}
+.story-content .title {
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+}
+.story-content .h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.pink_line {
+	width: 60px;
+	margin: 45px auto;
+	border-bottom: 3px solid #f38181;
+}
+.text {
+	font-size: 15px;
+	color: #999999;
+	margin-bottom: 100px;
+}
+.image {
+	width: 380px;
+	height: 250px;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+.computer {
+	background-image: url(../images/computer.png)
+}
+.headings {
+	background-image: url(../images/headings.png)
+}
+.flower {
+	background-image: url(../images/flower.png)
+}
+.hover {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	opacity: 0;
+	padding: 57px 38px 53px 38px;
+}
+.sprite-heads::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 32px;
+	height: 25px;
+	background-position: 0 0;
+}
+.computer:hover .computer_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/computer.png);
+}
+.headings:hover .headings_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/headings.png);
+}
+.flower:hover .flower_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/flower.png);
+}
+/*numbers*/
+.numbers-wrapper {
+	background-color: #95e1d3;
+}
+.numbers-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.numbers-content .block {
+	width: 20%;
+	display: inline-block;
+	color: #fff;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	margin-left: -5px;
+	padding: 88px 60px;
+	font-size: 14px;
+}
+.number {
+	font-size: 72px;
+	font-weight: 800;
+}
+/*amazing*/
+.amazing-wrapper {
+
+}
+.amazing-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.amazing-content .title {
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+}
+.amazing-content .h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.line1 {
+	border-bottom: 2px solid #e5e5e5;
+	margin-bottom: 50px;
+}
+.amazing-content .sprite {
+	float: left;
+	height: 123px;
+	margin-right: 25px;
+}
+
+.clock::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -40px 0;
+}
+.graph::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -85px 0;
+}
+.monitor::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -126px 0;
+}
+.book::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -210px 0;
+}
+.home::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -167px 0;
+}
+.square::after {
+	background-image: url(../images/sprite.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 35px;
+	height: 32px;
+	background-position: -258px 0;
+}
+.amazing-text {
+	font-family: 'Roboto';
+	font-size: 15px;
+	color: 999999;
+	padding: 20px 65px 50px 0;
+}
+.amazing-name {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.amazing-block {
+	width: 33%;
+	display: inline-block;
+	text-align: left;
+}
+/*mount*/
+.mount-wrapper {
+	background: #d9d9d9 url(../images/mount.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mount-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    position: relative;
+}
+.mount-content .title {
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+}
+.mount-content .h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.mount-content .mobile1 {
+	width: 30%;
+	position: relative;
+}
+.mount-content .mobile2 {
+	width: 18%;
+	position: absolute;
+	top: 315px;
+	left: 690px;
+	z-index: 3;
+}
+/*service team*/
+.service-content,
+.team-content,
+.ourwork-content,
+.clients-content,
+.stories-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.title {
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+	padding-top: 110px;
+}
+.h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.service-accord {
+	display: inline-block;
+}
+.img {
+	width: 50%;
+	float: left;
+}
+.service-accord img {
+	width: 90%;
+}
+.picture::after {
+	background-image: url(../images/sprite2.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 31px;
+	height: 32px;
+	background-position: 0 0;
+}
+.equalizer::after {
+	background-image: url(../images/sprite2.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 29px;
+	height: 32px;
+	background-position: -35px 0;
+}
+.circle::after {
+	background-image: url(../images/sprite2.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 33px;
+	height: 32px;
+	background-position: -68px 0;
+}
+.accord {
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+.accord .sprite {
+	float: left;
+	padding-right: 14px;
+}
+.accordion__content {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 180px;
+	display: none;
+	font-size: 15px;
+	color: #999999;
+	padding: 25px 25px 40px 15px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+.accordion__link {
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	padding: 25px;
+}
+#accord .mCSB_dragger_bar {
+	background-color: #95e1d3;
+}
+#accord .mCSB_draggerRail {
+	background-color: #f5f5f5;
+}
+/*carousel*/
+.carousel-wrapper,
+.carousel-wrapper2 {
+	background-color: #f8f8f8;
+}
+.carousel-content,
+.carousel-content2 {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 0;
+}
+.chat {
+	float: left;
+	margin: 0 60px;
+}
+.chat::after {
+	background-image: url(../images/chat.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	background-position: 0 0;
+}
+.chat2 {
+	width: 210px;
+	height: 210px;
+	border-radius: 50%;
+	background-image: url(../images/hat.png);
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+}
+.carousel-review {
+	font-family: 'Roboto';
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	color: #999999;
+	line-height: 36px;
+	padding: 10px 60px 0 10px;
+}
+.signature {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.signature .pink_line {
+    display: inline-block;
+    margin: 0;
+}
+.name {
+	font-family: 'Kaushan Script';
+	font-size: 24px;
+	display: inline-block;
+	padding-left: 15px;
+}
+/*team*/
+.team {
+	width: 380px;
+	height: 470px;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+.names {
+	width: 380px;
+	display: inline-block;
+	margin: 5px;
+}
+.matthew {
+	background-image: url(../images/person1.png)
+}
+.christopher {
+	background-image: url(../images/person2.png)
+}
+.michael {
+	background-image: url(../images/person3.png)
+}
+.hover {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	opacity: 0;
+	padding: 57px 38px 53px 38px;
+}
+.matthew:hover .computer_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/person1.png);
+}
+.christopher:hover .headings_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/person2.png);
+}
+.michael:hover .flower_hover {
+	opacity: 1;
+	background-image: linear-gradient(to bottom, rgba(233,131,131,.9), rgba(238,215,137,.9)), url(../images/person3.png);
+}
+.n {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333;
+	padding: 20px;
+}
+.p {
+	font-family: 'Roboto';
+	font-size: 15px;
+	font-style: italic;
+	color: #999;
+	font-weight: 300;
+	padding-bottom: 120px;
+}
+/*barber*/
+.barber-wrapper {
+	background-color: #f8f8f8;
+}
+.barber-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px 0;
+}
+/*images*/
+.images-wrapper {
+	background-color: #95e1d3;
+}
+.imagesblock {
+    display: inline-flex;
+}
+.block1 {
+	width: 50%;
+	flex-wrap: wrap;
+}
+.block2 {
+	width: 25%;
+	height: 780px;
+	margin-left: -5px;
+}
+.block3 {
+	width: 25%;
+	margin-left: -5px;
+	flex-wrap: wrap;
+}
+.image1 {
+	width: 50%;
+	height: 390px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.men {
+	background-image: url(../images/men.png);
+}
+.bridge2 {
+	background-image: url(../images/bridge2.png);
+}
+.bridge {
+    background-image: url(../images/bridge.png);	
+}
+.house {
+	background-image: url(../images/house.png);
+}
+.imagej {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jellyfish {
+	background-image: url(../images/jellyfish.png);
+}
+.image3 {
+	width: 100%;
+	height: 390px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.window {
+	background-image: url(../images/window.png);
+}
+.high {
+	background-image: url(../images/high.png);
+}
+/*clients*/
+.clients-wrapper {
+	background: url(../images/mountain.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clients {
+	width: 50%;
+	display: inline-block;
+	margin-left: -5px;
+	color: #333;
+}
+.client {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 30px;
+}
+.client-description {
+	width: 70%;
+	display: inline-block;
+	text-align: left;
+}
+.client1 {
+	background: url(../images/client1.png);  
+}
+.client2 {
+	background: url(../images/client2.png);
+}
+.client3 {
+	background: url(../images/client3.png);
+}
+.client4 {
+	background: url(../images/client4.png);
+}
+.client-name {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.client-position {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-style: italic;
+	font-size: 15px;
+	padding: 17px 0;
+}
+.client-review {
+	font-family: 'Roboto';
+	color: #999;
+	font-size: 15px;
+	padding: 25px 60px 65px 0;
+}
+.clients .pink_line {
+	width: 60px;
+	margin: 0;
+	border-bottom: 3px solid #f38181;
+}
+/*stories*/
+.imagee {
+	width: 380px;
+	height: 240px;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+.story-block {
+	width: 33%;
+	display: inline-block;
+	text-align: left;
+}
+.story-sprites {
+	display: inline-block;
+	border-top: 1px solid #ccc;
+}
+.girl {
+	background-image: url(../images/girl.png)
+}
+.coffee {
+	background-image: url(../images/coffee.png)
+}
+.ipad {
+	background-image: url(../images/ipad.png)
+}
+/*map*/
+.map-wrapper {
+	background: url(../images/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.map-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 50px 0;
+	color: #f38181;
+}
+.map-content .pink_line {
+	margin: 0 auto;
+}
+.map-content a {
+	display: block;
+	width: 25px;
+	margin: 0 auto;
+}
+.map::after {
+	background-image: url(../images/sprite2.png);
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 25px;
+	background-position: -192px 0;
+}
+.open {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 20px 0;
+}
+
+/*footer*/
+.footer-content {
+	margin: 0 auto;
+	padding: 25px 0;
+	text-align: center;
+	border-top: 2px solid #ccc;
+}
+.footerp span {
+	color: #f38181;
+}

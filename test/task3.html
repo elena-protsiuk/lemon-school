@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	    }
+		form {
+			max-width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid black;
+		}
+		fieldset {
+		border: none;
+		padding: 25px;
+		}
+		.form-control {
+			padding-bottom: 15px;
+		}
+        input[type="text"] {
+			display: block;
+			width: 100%;
+			padding: 3px;
+			border: 1px solid black;
+		}
+		input[type="submit"] {
+			background-color: black;
+			color: white;
+			border: none;
+			padding: 5px 25px;
+			text-align: center;
+		}
+		input[type="radio"] {
+			display: none;
+		}
+		input[type="radio"] + label {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: #000;
+			border-radius: 50%;
+			box-sizing: border-box;
+		}
+		input[type="radio"]:checked + label {
+			border: 3px solid #000;
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<form method="post" novalidate>
+		<fieldset>
+			<div class="form-control">
+				<label for="name" class="text-label">Ваше имя</label>
+				<input type="text" id="name" name="name" placeholder="Например, Иванов Иван Иванович">
+			</div>
+			<div class="form-control">
+			    <label for="profession" class="text-label">Ваш род деятельности</label>
+				<input type="text" id="profession" name="profession" placeholder="Например, Выращиваю огурцы">
+			</div>
+			<div class="form-control">
+			    <label for="question" class="text-label">Cогласны ли Вы с условиями?</label>
+			</div>
+			<div class="form-control">
+			<label for="radio1"> Категорически ДА!</label>
+			<input type="radio" name="radio1">
+			<label for="radio2"> Категорически НЕТ!</label>
+			<input type="radio" name="radio2">
+			</div>
+			<input type="submit" value="Отправить">
+		</fieldset>
+	</form>
+</body>
+</html>
